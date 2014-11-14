@@ -56,7 +56,7 @@ guessApp.controller('mainCtrl', function($scope, $http, $routeParams, $timeout){
 });
 
 guessApp.controller('viewCtrl', function($scope, $http, $routeParams, $timeout){
-	$scope.rightNumber = 3.23;
+	$scope.rightNumber = 14.91;
 	console.log($scope.rightNumber);
 
 	$scope.number = 0;
